@@ -22,9 +22,6 @@ mongoose.connection.on('connected', () => {
     console.log('Successful')
 })
 
-
-
-
 //middleware
 app.use(morgan('combined'));
 app.use(express.json());
